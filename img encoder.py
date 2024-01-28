@@ -2,7 +2,7 @@ import cv2
 import face_recognition
 
 # Load the image
-image = cv2.imread("D:/Projects/AISC/img/lib/Swapnil.jpg")
+image = cv2.imread("C:/Users/Swapnil/PycharmProjects/ESD/img/lib/Swapnil.jpg")
 
 # Find the face locations and encodings
 face_locations = face_recognition.face_locations(image)
